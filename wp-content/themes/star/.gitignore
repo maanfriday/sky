@@ -1,0 +1,71 @@
+# WordPress Core
+
+wp-admin/
+wp-includes/
+
+# WordPress default files
+
+license.txt
+readme.html
+xmlrpc.php
+
+# Uploads (user content)
+
+wp-content/uploads/
+
+# Cache
+
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+
+# Plugins (ignore unless custom)
+
+wp-content/plugins/*
+
+# Allow custom plugins if you build them
+
+!wp-content/plugins/your-custom-plugin/
+
+# Themes (ignore default themes)
+
+wp-content/themes/twentytwenty*
+wp-content/themes/twenty*
+
+# Allow your custom theme
+
+!wp-content/themes/star/
+
+# Node / Build files
+
+node_modules/
+dist/
+build/
+
+# Environment / config
+
+.env
+.env.local
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# LocalWP files
+
+app/public/wp-config.php
+
+# IDE files
+
+.vscode/
+.idea/
+
+# Composer
+
+vendor/
+composer.lock
